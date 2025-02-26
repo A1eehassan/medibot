@@ -11,6 +11,9 @@ faiss-cpu = "*"
 pypdf = "*"
 numpy = "<2.0"
 streamlit = "*"
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
 
 [dev-packages]
 
