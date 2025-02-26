@@ -61,6 +61,6 @@ qa_chain=RetrievalQA.from_chain_type(
 user_query=input("Write Query Here: ")
 response=qa_chain.invoke({'query': user_query})
 print("RESULT: ", response["result"])
-# print("SOURCE DOCUMENTS: ", response["source_documents"])
+print("SOURCE DOCUMENTS: ", response["source_documents"])
 
 
